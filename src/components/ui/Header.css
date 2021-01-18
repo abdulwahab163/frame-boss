@@ -1,0 +1,28 @@
+.navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 800;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.nav-item .dropdown .dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 12 !important;
+}
